@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Shimmer from "./Shimmer";
 import useOnline from "../utils/useOnline";
 import Cards from "../utils/Cards";
 import Components from "./components";
