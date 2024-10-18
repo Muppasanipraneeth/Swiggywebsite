@@ -1,19 +1,16 @@
 {
   "name": "foodwebsite",
   "version": "1.0.0",
-  "description": "this is my first projec",
+  "description": "this is my first project",
   "main": "app.js",
- 
   "scripts": {
-    "start": " npx parcel index.html",
-    "builds": [
-      { "src": "frontend/package.json", "use": "@vercel/node" }
-    ],
-          "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Muppasanipraneeth/REACT-Learning.git"
+    "url": "https://github.com/Muppasanipraneeth/REACT-Learning.git"
   },
   "author": "praneeth",
   "license": "ISC",
